@@ -23,8 +23,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A19B8C761B06064400FA6CC3 /* asn1cpp_Length.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; name = asn1cpp_Length.h; path = include/asn1cpp_Length.h; sourceTree = "<group>"; };
+		A19B8C771B060A6800FA6CC3 /* asn1cpp_Exception.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = asn1cpp_Exception.h; path = include/asn1cpp_Exception.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 		A1F62ACD1B05ECA5005421DA /* asn1cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = asn1cpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F62AD01B05ECA5005421DA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A1F62AD71B05F2AA005421DA /* asn1cpp_ASN1.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; name = asn1cpp_ASN1.h; path = include/asn1cpp_ASN1.h; sourceTree = "<group>"; };
+		A1F62AD81B05F42C005421DA /* asn1cpp_OctetString.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = asn1cpp_OctetString.h; path = include/asn1cpp_OctetString.h; sourceTree = "<group>"; };
+		A1F62AD91B060482005421DA /* asn1cpp_Tag.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; name = asn1cpp_Tag.h; path = include/asn1cpp_Tag.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,11 @@
 			isa = PBXGroup;
 			children = (
 				A1F62AD01B05ECA5005421DA /* main.cpp */,
+				A1F62AD91B060482005421DA /* asn1cpp_Tag.h */,
+				A19B8C771B060A6800FA6CC3 /* asn1cpp_Exception.h */,
+				A1F62AD71B05F2AA005421DA /* asn1cpp_ASN1.h */,
+				A19B8C761B06064400FA6CC3 /* asn1cpp_Length.h */,
+				A1F62AD81B05F42C005421DA /* asn1cpp_OctetString.h */,
 			);
 			path = asn1cpp;
 			sourceTree = "<group>";
@@ -232,6 +242,7 @@
 				A1F62AD61B05ECA5005421DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,9 +7,25 @@
 //
 
 #include <iostream>
+#include "asn1cpp_OctetString.h"
+
+using namespace asn1cpp;
+using namespace std;
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    cout << "Hello, World!\n";
+    
+    vector<char> chars = { 'H', 'e', 'l', 'l', 'o' };
+    OctetString oct1(chars);
+    
+    cout << oct1;
+
+    string string1("StringTest");
+    OctetString oct2(string1);
+
+    cout << oct2;
+
+    
     return 0;
 }
